@@ -1,0 +1,13 @@
+{
+    "test1": "Testing lib: ${data}",
+    "test2": "Testing lib!",
+    "test3": "Testing lib!",
+
+    "go": {
+        "to": {
+            "name1": "Hello ${name}",
+            "name2": "Hello!",
+            "name3": "Hello!"
+        }
+    }
+}
