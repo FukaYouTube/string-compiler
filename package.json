@@ -1,0 +1,20 @@
+{
+  "name": "string-compiler",
+  "version": "0.0.2",
+  "description": "This script compiles javascript code from a string and using a pattern string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test.*.js"
+  },
+  "keywords": [
+    "json-parser",
+    "yaml-parser",
+    "pattern-string"
+  ],
+  "author": "Fuka",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  }
+}
