@@ -1,4 +1,4 @@
-# String-Compiler v0.0.2 beta
+# String-Compiler v0.0.3 beta
 This script compiles javascript code from a string and using a pattern string  
 
 ## Install:
@@ -24,7 +24,7 @@ JSON parse and use string-compiler
 
 ```javascript
 const fs = require('fs')
-const { StringParser } = require('../')
+const { StringParser } = require('string-compiler')
 
 let message = JSON.parse(fs.readFileSync('./test/messages/text.json', 'utf8'))
 
@@ -53,7 +53,7 @@ console.log(StringParser.rules(message['go']['to']['name3']))
 Use string and use string-compiler  
 
 ```javascript
-const { StringParser } = require('../')
+const { StringParser } = require('string-compiler')
 
 // Template strings are changed to transmitted data
 console.log(StringParser.rules('New message to the world: ${name}', { name: 'Hello World!' }))
