@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "This script compiles javascript code from a string and using a pattern string",
   "main": "index.js",
+  "repository": "github:fukayoutube/string-compiler",
   "scripts": {
     "test": "mocha ./test/test.*.js"
   },
@@ -11,13 +12,11 @@
     "yaml-parser",
     "pattern-string"
   ],
+  "homepage": "https://github.com/fukayoutube/string-compiler",
   "author": "Fuka",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^7.1.2"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
