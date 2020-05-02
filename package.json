@@ -1,6 +1,6 @@
 {
   "name": "string-compiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This script compiles javascript code from a string and using a pattern string",
   "main": "index.js",
   "scripts": {
